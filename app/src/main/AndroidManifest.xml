@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ResourceRenting">
         <activity
+            android:name=".user.UserDashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListResourcesActivity"
             android:exported="false" />
         <activity
